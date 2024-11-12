@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Imóveis</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header id="header" class="navbar navbar-expand-lg sticky-top p-4">
+        <div class="container">
+            <h1 class="navbar-brand m-0 title-font fw-bold fs-1">Tech Imóveis</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav-menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="nav-menu">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold pe-1">
+                        <a href="#about-us" class="nav-link">Sobre nós</a>
+                    </li>
+                    <li class="nav-item fw-bold pe-1">
+                        <a href="#emphasis" class="nav-link">Destaques</a>
+                    </li>
+                    <li class="nav-item fw-bold pe-1">
+                        <a href="#sell" class="nav-link">Venda</a>
+                    </li>
+                    <li class="nav-item fw-bold pe-1">
+                        <a href="#rent" class="nav-link">Aluguel</a>
+                    </li>
+                    <li class="nav-item fw-bold pe-1">
+                        <a href="#contacts" class="nav-link">Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-smooth-scroll="true" data-bs-target="#header">
+        <section id="about-us">
+            <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class="w-100" src="images/cidade-1.jpg" alt="Ponte">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="w-100" src="images/cidade-2.jpg" alt="Cidade vista do alto com pôr do sol">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="w-100" src="images/cidade-3.jpg" alt="Cidade vista do alto">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button class="active" type="button" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img class="d-block w-100 rounded" src="images/imobiliaria.jpg" alt="Salão para festa">
+                    </div>
+                    <div class="col-md-7">
+                        <h2 class="font fw-bold fs-2 py-2 text-center">Sobre <span class="title-font">nós</span></h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam hic, saepe nihil at dolore aliquid corrupti eum, aperiam culpa quia fugiat tempora, neque maiores architecto vero officia doloribus exercitationem non!</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates cupiditate quo molestiae exercitationem veritatis vitae sit sapiente culpa saepe. Quaerat molestiae corporis perferendis voluptas sequi in maxime ad earum illo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="emphasis">
+            <div class="container py-5">
+                <div class="row">
+                    <h2 class="title-font fw-bold fs-2 py-2 text-center">Destaques</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card m-2">
+                            <img class="w-100 rounded" src="images/condominio-2.jpg" alt="Casa de dois andares com varanda">
+                            <div class="card-body">
+                                <h3 class="card-title fw-bold fs-3">Venda</h3>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sit laborum nemo aperiam quisquam alias sint, animi numquam qui totam dignissimos officiis assumenda vero eum expedita, iusto possimus voluptas voluptatem.</p>
+                            </div>
+                            <div class="card-footer fw-bold text-end">
+                                <a class="btn fw-bold" href="#sell">Ver mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card m-2">
+                            <img src="images/apartamento-2.jpg" alt="Sala de estar" class="w-100 rounded">
+                            <div class="card-body">
+                                <h3 class="card-title fw-bold fs-3">Aluguel</h3>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum quam itaque odio architecto minus exercitationem. Sint corporis recusandae, doloribus fugiat, atque nostrum doloremque autem harum culpa sed iste corrupti itaque.</p>
+                            </div>
+                            <div class="card-footer fw-bold text-end">
+                                <a class="btn fw-bold" href="#rent">Ver mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card m-2">
+                            <img src="images/rural-2.jpg" alt="Campo com casa ao fundo" class="w-100 rounded">
+                            <div class="card-body">
+                                <h3 class="card-title fw-bold fs-3">Aluguel de temporada</h3>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et est adipisci vitae aliquam commodi tempore. Sed, id dolor pariatur alias, exercitationem tempore adipisci aperiam blanditiis temporibus dolorum, provident perferendis molestiae.</p>
+                            </div>
+                            <div class="card-footer fw-bold text-end">
+                                <a class="btn fw-bold" href="#contacts">Ver mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sell">
+            <div class="container py-4 mt-5">
+                <div class="row">
+                    <h2 class="font fw-bold fs-2 py-2 text-center">Imóveis à <span class="title-font">venda</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-estate">
+                            <button class="nav-link active" type="button" data-bs-toggle="tab" data-bs-target="#sell-house">Casas</button>
+                            <button class="nav-link" type="button" data-bs-toggle="tab" data-bs-target="#sell-condominium">Casas em condomínios</button>
+                            <button class="nav-link" type="button" data-bs-toggle="tab" data-bs-target="#sell-apartment">Apartamentos</button>
+                            <button class="nav-link" type="button" data-bs-toggle="tab" data-bs-target="#sell-terrain">Terrenos</button>
+                            <button class="nav-link" type="button" data-bs-toggle="tab" data-bs-target="#sell-rural">Imóveis Rurais</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div id="sell-house" class="tab-pane active">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#sell">
+                                                <img class="w-100 rounded" src="images/casa.jpg" alt="Casa de tijolos com 2 andares">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Bairro X</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">R$ 350.000,00</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#sell">
+                                                <img src="images/casa-2.jpg" alt="Casa com sobrado e garagem" class="w-100 rounded">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Bairro X</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">R$ 400.000,00</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#sell">
+                                                <img class="w-100 rounded" src="images/casa.jpg" alt="Casa de tijolos com 2 andares">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Bairro X</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">R$ 350.000,00</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#sell">
+                                                <img src="images/casa-2.jpg" alt="Casa com sobrado e garagem" class="w-100 rounded">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Bairro X</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">R$ 400.000,00</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#sell">
+                                                <img class="w-100 rounded" src="images/casa.jpg" alt="Casa de tijolos com 2 andares">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Bairro X</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">R$ 350.000,00</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#sell">
+                                                <img src="images/casa-2.jpg" alt="Casa com sobrado e garagem" class="w-100 rounded">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Bairro X</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">R$ 400.000,00</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="sell-condominium" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#sell">
+                                                <img class="w-100 rounded" src="images/condominio.jpg" alt="Sobrado com varanda">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Condomínio X</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">R$ 750.000,00</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#sell">
+                                                <img class="w-100 rounded" src="images/condominio-2.jpg" alt="Casa de dois andares com varanda">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Condomínio X</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">R$ 500.000,00</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#sell">
+                                                <img class="w-100 rounded" src="images/condominio.jpg" alt="Sobrado com varanda">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Condomínio X</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">R$ 750.000,00</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#sell">
+                                                <img class="w-100 rounded" src="images/condominio-2.jpg" alt="Casa de dois andares com varanda">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Condomínio X</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">R$ 500.000,00</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#sell">
+                                                <img class="w-100 rounded" src="images/condominio.jpg" alt="Sobrado com varanda">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Condomínio X</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">R$ 750.000,00</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#sell">
+                                                <img class="w-100 rounded" src="images/condominio-2.jpg" alt="Casa de dois andares com varanda">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Condomínio X</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">R$ 500.000,00</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="sell-apartment" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#sell">
+                                                <img class="w-100 rounded" src="images/apartamento.webp" alt="Sacadas de apartamento">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Avenida Principal</h5>
+                                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">R$ 750.000,00</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#sell">
+                                                <img class="w-100 rounded" src="images/apartamento-2.jpg" alt="Sala de estar">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Avenida Principal</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">R$ 500.000,00</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#sell">
+                                                <img class="w-100 rounded" src="images/apartamento.webp" alt="Sacadas de apartamento">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Avenida Principal</h5>
+                                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">R$ 750.000,00</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#sell">
+                                                <img class="w-100 rounded" src="images/apartamento-2.jpg" alt="Sala de estar">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Avenida Principal</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">R$ 500.000,00</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#sell">
+                                                <img class="w-100 rounded" src="images/apartamento.webp" alt="Sacadas de apartamento">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Avenida Principal</h5>
+                                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">R$ 750.000,00</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#sell">
+                                                <img class="w-100 rounded" src="images/apartamento-2.jpg" alt="Sala de estar">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Avenida Principal</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">R$ 500.000,00</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="sell-terrain" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#sell">
+                                                <img class="w-100 rounded" src="images/terreno.jpg" alt="Terreno baldio">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Bairro X</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">R$ 150.000,00</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#sell">
+                                                <img class="w-100 rounded" src="images/terreno.jpg" alt="Terreno baldio">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Bairro X</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">R$ 150.000,00</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#sell">
+                                                <img class="w-100 rounded" src="images/terreno.jpg" alt="Terreno baldio">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Bairro X</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">R$ 150.000,00</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#sell">
+                                                <img class="w-100 rounded" src="images/terreno.jpg" alt="Terreno baldio">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Bairro X</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">R$ 150.000,00</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="sell-rural" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#sell">
+                                                <img class="w-100 rounded" src="images/rural.jpg" alt="Casa marrom com flores">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Local</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">R$ 1.500.000,00</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#sell">
+                                                <img class="w-100 rounded" src="images/rural-2.jpg" alt="Campo com casa ao fundo">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Local</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">À combinar</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#sell">
+                                                <img class="w-100 rounded" src="images/rural.jpg" alt="Casa marrom com flores">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Local</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">R$ 1.500.000,00</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#sell">
+                                                <img class="w-100 rounded" src="images/rural-2.jpg" alt="Campo com casa ao fundo">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Local</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">À combinar</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#sell">
+                                                <img class="w-100 rounded" src="images/rural.jpg" alt="Casa marrom com flores">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Local</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">R$ 1.500.000,00</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#sell">
+                                                <img class="w-100 rounded" src="images/rural-2.jpg" alt="Campo com casa ao fundo">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Local</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">À combinar</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="rent">
+            <div class="container py-4 mt-5">
+                <div class="row">
+                    <h2 class="font fw-bold fs-2 py-3 text-center">Imóveis para <span class="title-font">alugar</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-estate">
+                            <button class="nav-link active" type="button" data-bs-toggle="tab" data-bs-target="#rent-house">Casas</button>
+                            <button class="nav-link" type="button" data-bs-toggle="tab" data-bs-target="#rent-condominium">Casas em condomínios</button>
+                            <button class="nav-link" type="button" data-bs-toggle="tab" data-bs-target="#rent-apartment">Apartamentos</button>
+                            <button class="nav-link" type="button" data-bs-toggle="tab" data-bs-target="#rent-commercial">Imóveis comerciais</button>
+                            <button class="nav-link" type="button" data-bs-toggle="tab" data-bs-target="#rent-season">Temporada</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div id="rent-house" class="tab-pane active">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#rent">
+                                                <img class="w-100 rounded" src="images/casa.jpg" alt="Casa de tijolos com 2 andares">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Bairro X</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">R$ 1.200,00</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#rent">
+                                                <img src="images/casa-2.jpg" alt="Casa com sobrado e garagem" class="w-100 rounded">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Bairro X</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">R$ 1.000,00</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#rent">
+                                                <img class="w-100 rounded" src="images/casa.jpg" alt="Casa de tijolos com 2 andares">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Bairro X</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">R$ 1.200,00</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#rent">
+                                                <img src="images/casa-2.jpg" alt="Casa com sobrado e garagem" class="w-100 rounded">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Bairro X</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">R$ 1.000,00</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#rent">
+                                                <img class="w-100 rounded" src="images/casa.jpg" alt="Casa de tijolos com 2 andares">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Bairro X</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">R$ 1.200,00</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#rent">
+                                                <img src="images/casa-2.jpg" alt="Casa com sobrado e garagem" class="w-100 rounded">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Bairro X</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">R$ 1.000,00</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="rent-condominium" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#rent">
+                                                <img class="w-100 rounded" src="images/condominio.jpg" alt="Sobrado com varanda">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Condomínio X</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">R$ 1.200,00</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#rent">
+                                                <img class="w-100 rounded" src="images/condominio-2.jpg" alt="Casa de dois andares com varanda">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Condomínio X</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">R$ 1.500,00</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#rent">
+                                                <img class="w-100 rounded" src="images/condominio.jpg" alt="Sobrado com varanda">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Condomínio X</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">R$ 1.700,00</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#rent">
+                                                <img class="w-100 rounded" src="images/condominio-2.jpg" alt="Casa de dois andares com varanda">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Condomínio X</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">R$ 1.500,00</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#rent">
+                                                <img class="w-100 rounded" src="images/condominio.jpg" alt="Sobrado com varanda">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Condomínio X</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">R$ 1.700,00</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#rent">
+                                                <img class="w-100 rounded" src="images/condominio-2.jpg" alt="Casa de dois andares com varanda">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Condomínio X</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">R$ 1.500,00</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="rent-apartment" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#rent">
+                                                <img class="w-100 rounded" src="images/apartamento.webp" alt="Sacadas de apartamento">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Avenida Principal</h5>
+                                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">R$ 1.700,00</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#rent">
+                                                <img class="w-100 rounded" src="images/apartamento-2.jpg" alt="Sala de estar">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Avenida Principal</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">R$ 1.500,00</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#rent">
+                                                <img class="w-100 rounded" src="images/apartamento.webp" alt="Sacadas de apartamento">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Avenida Principal</h5>
+                                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">R$ 1.700,00</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#rent">
+                                                <img class="w-100 rounded" src="images/apartamento-2.jpg" alt="Sala de estar">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Avenida Principal</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">R$ 1.500,00</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#rent">
+                                                <img class="w-100 rounded" src="images/apartamento.webp" alt="Sacadas de apartamento">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Avenida Principal</h5>
+                                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">R$ 1.700,00</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#rent">
+                                                <img class="w-100 rounded" src="images/apartamento-2.jpg" alt="Sala de estar">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Avenida Principal</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">R$ 1.500,00</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="rent-commercial" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#rent">
+                                                <img class="w-100 rounded" src="images/comercial.webp" alt="Entrada de sala comercial">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Avenida Principal</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">
+                                                    R$ 2.000,00
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#rent">
+                                                <img class="w-100 rounded" src="images/comercial-2.webp" alt="Fachada de prédio comercial">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Avenida Principal</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">
+                                                    R$ 2.000,00
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#rent">
+                                                <img class="w-100 rounded" src="images/comercial.webp" alt="Entrada de sala comercial">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Avenida Principal</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">
+                                                    R$ 2.000,00
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#rent">
+                                                <img class="w-100 rounded" src="images/comercial-2.webp" alt="Fachada de prédio comercial">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Avenida Principal</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">
+                                                    R$ 2.000,00
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="rent-season" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#rent">
+                                                <img class="w-100 rounded" src="images/season.jpg" alt="Praia com quiosques">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Local</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">À combinar</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#rent">
+                                                <img class="w-100 rounded" src="images/season-2.jpg" alt="Frente de hotel no inverno">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Local</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">À combinar</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#rent">
+                                                <img class="w-100 rounded" src="images/season.jpg" alt="Praia com quiosques">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Local</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">À combinar</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mb-2">
+                                            <a href="#rent">
+                                                <img class="w-100 rounded" src="images/season-2.jpg" alt="Frente de hotel no inverno">
+                                                <div class="card-body">
+                                                    <h5 class="card-title fw-bold fs-4">Local</h5>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                                </div>
+                                                <div class="card-footer fw-bold text-center">À combinar</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts">
+            <div class="container py-5">
+                <div class="row">
+                    <h2 class="font fw-bold fs-2 py-2 text-center">Fale <span class="title-font">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 my-2">
+                        <form>
+                            <div>
+                                <input class="form-control mt-2" name="name" type="text" placeholder="Nome completo">
+                                <input id="telefone" class="form-control mt-2" name="phone" type="tel" placeholder="Telefone">
+                                <input class="form-control mt-2" name="email" type="email" placeholder="E-mail">
+                                <textarea class="form-control mt-2" id="message" name="message" placeholder="Deixe sua mensagem..."></textarea>
+                            </div>
+                            <button class="btn mt-2" type="submit">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5 my-2">
+                        <div class="row">
+                            <h3 class="title-font fw-bold py-2">Redes sociais</h3>
+                            <ul class="d-flex">
+                                <li class="pe-2">
+                                    <a href="#">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="pe-2">
+                                    <a href="#">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="pe-2">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <h3 class="title-font fw-bold py-2">Endereço</h3>
+                            <address>Rua Teste, nº 123. Bairro Teste - São Paulo - SP</address>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p class="text-center fw-bold p-4 m-0">&copy; 2024 - Todos os direitos reservados. </p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/messages_pt_BR.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
